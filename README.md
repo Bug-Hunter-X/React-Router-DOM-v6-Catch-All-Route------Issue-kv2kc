@@ -1,0 +1,3 @@
+This repository demonstrates a common issue encountered when using catch-all routes ('/*') in React Router DOM v6.  The problem is that the catch-all route doesn't seem to be catching routes that don't explicitly match other routes defined in the Routes component. This often results in unexpected redirects to the home route.
+
+The solution shows how to correctly implement a catch-all route in React Router DOM v6 to handle 404 scenarios effectively.
